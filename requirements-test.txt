@@ -14,7 +14,7 @@ bandit==1.7.0
     # via -r requirements-test.in
 black==21.7b0
     # via -r requirements-test.in
-certifi==2021.5.30
+certifi==2022.12.7
     # via requests
 cfgv==3.3.1
     # via pre-commit
@@ -26,11 +26,11 @@ coverage==5.5
     # via coveralls
 coveralls==3.2.0
     # via -r requirements-test.in
-distlib==0.3.2
+distlib==0.3.6
     # via virtualenv
 docopt==0.6.2
     # via coveralls
-filelock==3.0.12
+filelock==3.11
     # via virtualenv
 flake8-import-order==0.18.1
     # via -r requirements-test.in
@@ -38,13 +38,13 @@ flake8==3.9.2
     # via -r requirements-test.in
 gitdb==4.0.7
     # via gitpython
-gitpython==3.1.18
+gitpython==3.1.30
     # via bandit
 identify==2.2.13
     # via pre-commit
 idna==3.2
     # via requests
-importlib-metadata==4.6.4
+importlib-metadata==6.4.1
     # via
     #   backports.entry-points-selectable
     #   click
@@ -74,7 +74,7 @@ pathspec==0.9.0
     # via black
 pbr==5.6.0
     # via stevedore
-platformdirs==2.2.0
+platformdirs==3.2
     # via virtualenv
 pluggy==0.13.1
     # via pytest
@@ -100,7 +100,7 @@ pyyaml==5.4.1
     #   pre-commit
 regex==2021.8.21
     # via black
-requests==2.26.0
+requests==2.31.0
     # via coveralls
 six==1.16.0
     # via
@@ -137,3 +137,4 @@ zipp==3.5.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+
