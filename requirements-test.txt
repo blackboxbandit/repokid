@@ -14,7 +14,7 @@ bandit==1.7.0
     # via -r requirements-test.in
 black==21.7b0
     # via -r requirements-test.in
-certifi==2021.5.30
+certifi==2022.12.7
     # via requests
 cfgv==3.3.1
     # via pre-commit
@@ -38,7 +38,7 @@ flake8==3.9.2
     # via -r requirements-test.in
 gitdb==4.0.7
     # via gitpython
-gitpython==3.1.18
+gitpython==3.1.30
     # via bandit
 identify==2.2.13
     # via pre-commit
@@ -100,7 +100,7 @@ pyyaml==5.4.1
     #   pre-commit
 regex==2021.8.21
     # via black
-requests==2.26.0
+requests==2.31.0
     # via coveralls
 six==1.16.0
     # via
@@ -137,3 +137,4 @@ zipp==3.5.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
