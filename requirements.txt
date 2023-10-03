@@ -134,7 +134,7 @@ typing-extensions==3.10.0.0
     #   mypy-boto3-sns
     #   mypy-boto3-sqs
     #   pydantic
-urllib3==1.26.6
+urllib3==1.26.17
     # via
     #   botocore
     #   requests
