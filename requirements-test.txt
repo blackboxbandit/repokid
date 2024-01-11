@@ -38,7 +38,7 @@ flake8==3.9.2
     # via -r requirements-test.in
 gitdb==4.0.7
     # via gitpython
-gitpython==3.1.18
+gitpython==3.1.41
     # via bandit
 identify==2.2.13
     # via pre-commit
