@@ -37,7 +37,7 @@ docutils==0.17.1
     # via readme-renderer
 flagpole==1.1.1
     # via cloudaux
-idna==3.2
+idna==3.7
     # via requests
 import-string==0.1.0
     # via -r requirements.in
