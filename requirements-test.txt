@@ -100,7 +100,7 @@ pyyaml==5.4.1
     #   pre-commit
 regex==2021.8.21
     # via black
-requests==2.26.0
+requests==2.32.0
     # via coveralls
 six==1.16.0
     # via
