@@ -128,7 +128,7 @@ typing-extensions==3.10.0.0
     #   gitpython
     #   importlib-metadata
     #   mypy
-urllib3==1.26.6
+urllib3==1.26.18
     # via requests
 virtualenv==20.7.2
     # via pre-commit
